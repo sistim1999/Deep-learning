@@ -55,6 +55,7 @@ python detect.py
 1. 训练结果保存位置：runs/train/exp
 2. 推理结果保存位置：runs/detect/exp
 
+可在 Python 文件中自定义。
 
 
 # 示例数据
