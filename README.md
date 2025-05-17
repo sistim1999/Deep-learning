@@ -1,3 +1,8 @@
+# 说明
+
+本项目基于 `ultralytics` 开源项目进行少量更改，提供了 **train.py\detect.py** 更利于您使用。
+并且我们提供了示例的 YOLO 格式杂草数据集，以及杂草训练权重文件，配置完成环境后可直接跑通本项目，使您更快速的体验深度学习项目。
+
 # 环境配置
 
 在 [**Python>=3.8**](https://www.python.org/) 环境中安装 `ultralytics` 包，包括所有**依赖项**，并确保 [**PyTorch>=1.8**](https://pytorch.org/get-started/locally/)。
@@ -62,7 +67,7 @@ python detect.py
 
 示例杂草数据我们存放在次项目根目录 datasets 文件夹下，并且我们提供了杂草预训练权重文件 **weeds.pt**，可根据需求更换您个人杂草数据以及使用预训练权重。
 
-数据配置在 **weeds.yaml** 文件中，可根据需求配置 **train、val、test** 文件夹及其数据。
+数据配置在 **datasets/weeds.yaml** 文件中，可根据需求配置 **train、val、test** 文件夹及其数据。
 
 
 
