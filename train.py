@@ -4,7 +4,7 @@ from ultralytics import YOLO
 
 if __name__ == '__main__':
     model = YOLO('ultralytics/cfg/models/yolo11s.yaml')      # 加载模型文件
-    model.load('datasets/weeds/weeds.pt') # 加载权重文件（可选）
+    model.load('datasets/weeds/weeds.pt') # 加载预训练权重文件（可选）
     model.train(
             data='datasets/weeds.yaml',  # 数据集配置文件路径
             imgsz=640,  # 训练图像尺寸
