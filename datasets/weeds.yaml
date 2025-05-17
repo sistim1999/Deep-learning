@@ -1,0 +1,14 @@
+# dataset path
+path: datasets/weeds/images/
+train: train
+val: train
+test: train
+
+# number of classes
+nc: 3
+
+# class names
+names:
+  0: baicao
+  1: rand
+  2: weed
